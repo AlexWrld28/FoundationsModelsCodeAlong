@@ -18,7 +18,6 @@ final class ItineraryGenerator {
     
     private var session: LanguageModelSession
     
-    // MARK: - [CODE-ALONG] Chapter 4.1.1: Change the property to hold a partially generated Itinerary
     private(set) var itinerary: Itinerary.PartiallyGenerated?
 
     init(landmark: Landmark) {
